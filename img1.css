@@ -1,0 +1,52 @@
+body{
+	background-color: black;
+}
+#navbar{
+	margin-left: 40%;	
+}
+#logo{
+	padding: 30px;
+	width: 20%;
+	image-rendering: auto;
+
+}
+.imgbox{
+	position: sticky;
+	background-color: rgba(255, 70, 65,0.6);
+	padding: 5px;
+	padding-bottom: 70px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	width:480px;
+	height: 480px;
+	float:left;
+	margin: 30px;
+}
+
+.imgbox:hover{
+	background-color: rgba(255, 70, 65,1);
+	transition: all 0.5s ease-in;
+}
+h1{
+	position: static;
+	margin-top: 0px;
+	text-align: center;
+	color: rgba(255,255,255,1);
+	font-size: 60px; 
+	padding: 20px;
+}
+h1:hover{
+	transition: all 0.5s ease-in;
+}
+#videoBg{
+	object-fit: fill;
+ 	width: 100vw;
+ 	height: 100vh;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+}
+#imgcont{
+	margin: ;
+}
